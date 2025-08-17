@@ -1,0 +1,26 @@
+# Python 版本建议
+# python==3.10
+
+# LangChain 生态
+tiktoken==0.7.0
+langchain==0.3.21
+langchain-community==0.3.20
+langchain-openai==0.3.30
+langsmith<0.4 
+
+# 向量数据库（可选）
+faiss-cpu==1.7.4
+
+# 文档处理（可选）
+pypdf
+unstructured
+
+# 环境变量管理
+python-dotenv==1.0.1
+
+# 常用工具
+numpy==1.26.4
+pandas==2.2.2
+
+# LLM 基础
+openai
