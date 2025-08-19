@@ -6,7 +6,7 @@ tiktoken==0.7.0
 langchain==0.3.21
 langchain-community==0.3.20
 langchain-openai==0.3.30
-langsmith<0.4 
+langsmith<0.4
 
 # 向量数据库（可选）
 faiss-cpu==1.7.4
@@ -29,3 +29,7 @@ openai
 torch==2.0.1
 torchvision==0.15.2
 torchaudio==2.0.2
+
+# LangGraph 
+langgraph==0.2.39
+langgraph-prebuilt==0.2.3
